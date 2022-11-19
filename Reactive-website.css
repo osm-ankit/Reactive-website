@@ -1,0 +1,196 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background-color: hsl(204, 29%, 54%);
+  font-family: 'Indie Flower', cursive;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  background-color: #6991AC;
+  width: 100%;
+  height: 370px;
+  background-image: url(https://res.cloudinary.com/dgpmuegqe/image/upload/v1492571172/rocket_design_k4nzbm.png);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.logo img {
+  height: 55px;
+  margin: 10px;
+}
+
+.menu-icon {
+  display: hidden;
+  width: 40px;
+  height: 40px;
+  background: url(https://res.cloudinary.com/dgpmuegqe/image/upload/v1492571257/nav_xe79ju.png) center;
+  margin: 10px;
+}
+
+.btn {
+  display: flex;
+  justify-content: space-between;
+  width: 300px;
+  height: 10px;
+  background-color: hsl(204, 29%, 54%);
+  color: white;
+  margin-right: 20px;
+  margin-top: 10px;
+}
+
+.row {
+  display: flex;
+  width: 100%;
+
+}
+
+.container {
+  width: 100%;
+  border: none;
+  padding: 15px 0;
+}
+
+.container i {
+  font-size: 4rem;
+  overflow: hidden;
+  padding: 15px;
+  color: #F0F0F0;
+  align-items: center;
+
+}
+
+.container div {
+  font-size: 1.5rem;
+}
+
+.row {
+  width: 100%;
+  float: left;
+  text-align: center;
+
+  font-size: 2rem;
+
+}
+
+#a {
+  background-color: #F1AA90;
+}
+
+#b {
+  background-color: #8BE9AD;
+}
+
+#c {
+  background-color: #AADCD2;
+}
+
+#d {
+  background-color: #A2b2C1;
+}
+
+.main-content {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  align-items: center;
+  width: 100%;
+  background-color: #bbddff;
+
+}
+
+.pic img {
+  margin-top: 8px;
+  vertical-align: middle;
+  max-width: 100%;
+  height: auto;
+}
+
+.card-head {
+  font-size: 1.7rem;
+  text-align: center;
+  color: #555566;
+  margin: 12px;
+}
+
+.content {
+  padding: 5px;
+  font-size: 1.5rem;
+  color: white;
+  height: 100%;
+}
+
+.row-sec {
+  background-color: #88eebb;
+  width: 100%;
+  display: flex;
+
+
+}
+
+.footer {
+  background-color: #60889f;
+  width: 100%;
+  height: min-content;
+  display: flex;
+  padding: 15px 0;
+  justify-content: space-evenly;
+}
+
+.icon {
+  color: #ddddee;
+  font-size: 5rem;
+}
+
+.last {
+  background-color: #88eebb;
+  width: 100%;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.smiley {
+  padding: 5px;
+  font-size: 1.5rem;
+  color: #888899;
+}
+
+.btm-bar {
+  background-color: #343342;
+  color: white;
+  text-align: center;
+  padding: 25px;
+  height: 3vh;
+}
+
+@media (max-width: 600px) {
+  .main-content {
+    grid-template-columns: 100%;
+  }
+
+  .row {
+    flex-direction: column;
+  }
+
+  .row-sec {
+    flex-direction: column;
+  }
+
+  .icon {
+    font-size: 3rem;
+  }
+
+  .menu-icon {
+    display: inline-block;
+  }
+
+  .btn {
+    display: none;
+   
+  }
+
+}
